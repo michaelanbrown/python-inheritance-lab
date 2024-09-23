@@ -8,5 +8,4 @@ class Student(User):
         super().__init__(first_name, last_name)
         self.knowledge = []
     
-    def learn(self):
-        pass
+    def learn(self, knowledge_string):
